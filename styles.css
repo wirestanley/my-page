@@ -1,0 +1,58 @@
+.body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr  1fr;
+
+}
+.header {
+    background-image: url(images/wall\ tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.header h1{
+    font-size: 120px;
+    font-family: 'Newsreader', serif;
+    color: whitesmoke;
+    background-color: transparent;
+    text-align: center;
+    text-decoration:underline;
+}
+.header h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: ivory;
+    background-color: transparent;
+    text-align:left;
+    margin-left: 100px;
+}
+
+.main {
+    background-color:black;
+    color: blanchedalmond;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+
+}
+
+.content {
+    background-color: thistle;
+}
+
+.content1 {
+    background-color: tomato;
+}
+
+.content2 {
+    background-color: turquoise;
+}
+
+.content3 {
+    background-color: green;
+}
